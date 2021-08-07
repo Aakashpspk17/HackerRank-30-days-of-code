@@ -5,7 +5,6 @@ public class HelloWorld {
 	{
     
         Scanner scan = new Scanner(System.in);
-
         String inputString = scan.nextLine();
 
         scan.close();
