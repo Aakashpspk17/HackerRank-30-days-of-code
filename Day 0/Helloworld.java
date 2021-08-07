@@ -12,13 +12,9 @@ public class HelloWorld {
         /* Close the scanner object, because we've finished reading
         all of the input from stdin needed for this challenge.*/
         scan.close();
-
-        /* Print a string literal saying "Hello, World." to stdout.*/
+	    
         System.out.println("Hello, World.");
-
-        /* Print the contents of inputString to stdout.*/
-		
-		/* Solution starts from here */
+	    
         System.out.println(inputString);
 		/* Solution ends here */
     }
