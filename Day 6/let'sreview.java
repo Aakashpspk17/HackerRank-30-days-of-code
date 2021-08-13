@@ -9,7 +9,6 @@ public class Solution {
     {
         Scanner in = new Scanner(System.in);
         int N = in.nextInt();
-
         in.nextLine();
 
         for (int i = 0; i < N; i++) 
@@ -26,7 +25,6 @@ public class Solution {
             }
 
             System.out.print(" ");
-
             for (int j = 0; j < charArray.length; j++) 
             {
                 if (j % 2 != 0) 
@@ -34,10 +32,8 @@ public class Solution {
                     System.out.print(charArray[j]);
                 }
             }
-
             System.out.println();
         }
-
         in.close();
     }
 }
